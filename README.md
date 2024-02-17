@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 # svelte-snippets
-=======
-# Svelte Code Snippets
 
 This extension provides the standard svelte boilerplate code for General usage.
 
@@ -13,52 +10,15 @@ Type '!t' or '!ttl' in an svelte file and select the snippet from the auto sugge
 
 ## Snippets
 
-1. !t
+| Comand        | Description                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| !t |Basic template for svelte |
+| !tts |Basic template with language typescript  |
+| !tl | Basic tempalate with slot |
+| !ttsl | Basic template with language typescript and slot |
+| !lifecycle-mount| onMount lifecycle function|
+|!lifecycle-destroy|onDestroy lifecycle function|
 
-```svelte
-<script>
-
-</script>
-
-<section>
-
-</section>
-
-<style>
-
-</style>
-```
-
-2. !tts
-
-```svelte
-<script lang="ts">
-
-</script>
-
-<section>
-
-</section>
-
-<style>
-
-</style>
-```
-3. !tl
-
-```svelte
-<script>
-
-</script>
-
-<section>
-	<slot />
-</section>
-
-<style>
-
-</style>
-```
 ## Installation
 
 1. Install Visual Studio Code 1.57.0 or higher
@@ -71,11 +31,12 @@ Type '!t' or '!ttl' in an svelte file and select the snippet from the auto sugge
 
 ## Release Notes
 
-### 1.0.0
+### 1.0.2
 
 Svelte Code Snippets.
 
 ## Source
 
 [Github](https://github.com/NoOne-Cares/svelte-snippets.git)
->>>>>>> dev
+[X](https://x.com/Humble__Fool)
+

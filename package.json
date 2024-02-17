@@ -1,9 +1,9 @@
 {
     "name": "svelte-code-snippets",
-    "displayName": "Simple Boiler plate code to speed up development",
+    "displayName": "Svelte Code Snippets",
     "description": "A collection of basic boiler plate codes that can be used in svelte",
-    "version": "1.0.0",
-    "publisher": "Suman Das",
+    "version": "1.0.2",
+    "publisher": "HumbleFool",
     "repository": {
         "type": "git",
         "url": "https://github.com/NoOne-Cares/svelte-snippets"
