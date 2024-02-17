@@ -1,0 +1,86 @@
+{
+  "svelte basic tamplete": {
+    "prefix": "!t",
+    "body": [
+        "<script>"
+        "\t$0 " 
+        "</script>"
+          "\t"
+        "<section>"
+        "\t$1"    
+        "</section>"
+        "\t"
+        "<style>"
+          "\t${1:// styles goes here}"
+        "</style>"
+
+        
+    ],
+    "description": "Creates the basic template for svelte."
+  },
+  "svelte basic tamplete with typescript": {
+    "prefix": "!tts",
+    "body": [
+        "<script lang=\"ts\">"
+          "\t$0"
+        "</script>"
+          "\t$0{1:// logic goes here}"
+        "<section>"
+          "\t$1"
+        "</section>"
+
+        "<style>"
+          "\t${1:// styles goes here}"
+        "</style>"
+    ],
+    "description": "Create basic svelte template with language as typescript."
+  },
+  "svelte basic tamplete with slot": {
+    "prefix": "!tl",
+    "body": [
+        "<script>"
+          "\t$0{1:// logic goes here}"
+        "</script>"
+        "<section>"
+          "<slot />"
+        "</section>"
+        "<style>"
+          "\t${1:// styles goes here}"
+        "</style>"
+    ],
+    "description": "Create a basic svelte tamplete with slot."
+  },
+  "svelte basic tamplete with slot and typescript": {
+    "prefix": "!ttsl",
+    "body": [
+        "<script lang=\"ts\">"
+          "\t$0{1:// logic goes here}"
+        "</script>"
+        "<section>"
+          "<slot />"
+        "</section>"
+        "<style>"
+            "\t${1:// styles goes here}"
+        "</style>"
+    ],
+    "description": "Create a basic svelte tamplete with slot and typescript."
+  },
+  "svelte-on-mount": {
+        "prefix": "!lifecycle-mount",
+        "body": [
+            "onMount(() => {",
+            "\t${1:// content here}",
+            "});"
+        ],
+        "description": "onMount lifecycle function"
+    },
+    "svelte-on-destroy": {
+        "prefix": "!lifecycle-destroy",
+        "body": [
+            "onDestroy(() => {",
+            "\t${1:// content here}",
+            "});"
+        ],
+        "description": "onDestroy lifecycle function"
+    },
+}
