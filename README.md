@@ -63,7 +63,7 @@ Type '!t' or '!ttl' in a svelte file and select the snippet from the auto-sugges
 2. Launch VS Code
 3. Launch the command palette by using `Ctrl-Shift-P` (Windows, Linux) or `Cmd-Shift-P` (OSX)
 4. Type in Install Extension and select 'Extensions: Install Extensions'
-5. Type `Svelte Code Snippets`
+5. Type `Svelte Snippets`
 6. Choose the extension from the drop-down
 7. Reload Visual Studio Code
 
