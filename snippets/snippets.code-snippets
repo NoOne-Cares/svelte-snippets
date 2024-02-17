@@ -3,7 +3,7 @@
     "prefix": "!t",
     "body": [
         "<script>"
-        "\t$0 " 
+        "\t$0" 
         "</script>"
           "\t"
         "<section>"
@@ -11,7 +11,7 @@
         "</section>"
         "\t"
         "<style>"
-          "\t${1:// styles goes here}"
+          "\t${2:// styles goes here}"
         "</style>"
 
         
@@ -22,13 +22,11 @@
     "prefix": "!tts",
     "body": [
         "<script lang=\"ts\">"
-          "\t$0"
+          "\t${3://logic goes here}"
         "</script>"
-          "\t$0{1:// logic goes here}"
         "<section>"
-          "\t$1"
+          "\t$2"
         "</section>"
-
         "<style>"
           "\t${1:// styles goes here}"
         "</style>"
@@ -39,13 +37,13 @@
     "prefix": "!tl",
     "body": [
         "<script>"
-          "\t$0{1:// logic goes here}"
+          "\t${1:// logic goes here}"
         "</script>"
         "<section>"
           "<slot />"
         "</section>"
         "<style>"
-          "\t${1:// styles goes here}"
+          "\t${2:// styles goes here}"
         "</style>"
     ],
     "description": "Create a basic svelte tamplete with slot."
@@ -54,13 +52,13 @@
     "prefix": "!ttsl",
     "body": [
         "<script lang=\"ts\">"
-          "\t$0{1:// logic goes here}"
+          "\t${1:// logic goes here}"
         "</script>"
         "<section>"
           "<slot />"
         "</section>"
         "<style>"
-            "\t${1:// styles goes here}"
+            "\t${2:// styles goes here}"
         "</style>"
     ],
     "description": "Create a basic svelte tamplete with slot and typescript."
