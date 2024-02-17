@@ -1,0 +1,33 @@
+{
+    "name": "svelte-code-snippets",
+    "displayName": "Simple Boiler plate code to speed up development",
+    "description": "A collection of basic boiler plate codes that can be used in svelte",
+    "version": "1.0.0",
+    "publisher": "Suman Das",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NoOne-Cares/svelte-snippets"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            },{
+                "language": "svelte",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
